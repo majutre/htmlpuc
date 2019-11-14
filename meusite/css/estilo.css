@@ -1,0 +1,12 @@
+h1 {
+    color: indigo;
+    font-family: Helvetica;
+    font-weight: bolder;
+    border-style: dashed;
+    border-width: 2px 2px 2px 2px;
+    border-color: orangered;
+  }
+  h3{
+    color: darkgreen;
+  
+  }
