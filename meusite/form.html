@@ -1,21 +1,23 @@
 <html>
-    <head>
-      <meta charset="UTF8">
-        <link rel="stylesheet" type="text/css" href="css/estilo2.css">
-      <title>
-       Formulário de Exemplo
-      </title>
-    </head>
-    <body>
-      <h1>
-        EXEMPLINHO
-      </h1>
-      <form id="fmrTeste" name="fmrTeste" onsubmit="return calculaInss()">
+
+<head>
+    <meta charset="UTF8">
+    <link rel="stylesheet" type="text/css" href="css/estilo2.css">
+    <title>
+        Formulário de Exemplo
+    </title>
+</head>
+
+<body>
+    <h1>
+        Formulário de Exemplo
+    </h1>
+    <form id="frmTeste" name="frmTeste" onsubmit="calculaInss(); return false;">
         <div>
-                <label for "salario">
-                        Salário  
-                      </label>
-                      <input id="salario" type="number" name="salario"/>
+            <label for "salario">
+                Salário
+            </label>
+            <input id="salario" type="number" name="salario" />
         </div>
         <br />
         <div>
@@ -23,15 +25,14 @@
         </div>
         <br />
         <div id="resultado">
-        &nbsp; <!--força um espaço a ser exibido--></div>              
-        
-    </form>
-    
-    
-    <script src="javascript/inss.js"></script>
-    <script>
-        
-    </script>
+         </div>
 
-     </body>
-   </html>
+    </form>
+
+
+    <script src="javascript/inss.js"></script>
+
+
+</body>
+
+</html>
