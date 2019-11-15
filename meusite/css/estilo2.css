@@ -1,0 +1,8 @@
+h1{
+    border: dashed;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkred;
+    border-color: indigo;
+    text-shadow: 0 0 2px #fff;
+    
+}
