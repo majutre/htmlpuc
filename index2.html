@@ -1,50 +1,60 @@
   
 <html>
-  <head>
-    <title>
-      Meu Primeiro Site
-    </title>
-  </head>
-  <body>
-    <h1>
-      Meu Site
-    </h1>
-    <h3>
-      Formulário de cadastro.
-    </h3>
-    </br>
-    <form>
-      <label for"nome">
-        Nome
-      </label>
-      <input id="nome" type="text">
+    <head>
+      <meta charset="UTF8">
+        <link rel="stylesheet" type="text/css" href="css/estilo-css.css">
+      <title>
+        Meu Primeiro Site
+      </title>
+    </head>
+    <body>
+      <h1>
+        Meu Site
+      </h1>
+      <img src="imagens/logo.png" alt="logo da OABSP" class="logo"/>
+      <h3>
+        Formulário de Cadastro
+      </h3>
       </br>
-      <label for"sobrenome">
-        Sobrenome
-      </label>
-      <input id="sobrenome" type="text">
-      </br>
-      <label for"cpf">
-        CPF
-      </label>
-      <input id="cpf" type="number">
-      </br>
-      <label for="nacionalidade">
-        Nacionalidade
-      </label>
-      <select id="nacionalidade">
-         <option value="brasileiro">Brasileiro</option>
-         <option value="estrangeiro">Estrangeiro</option>
-      </select>
-      </br>
-      <label for="minibio">
-        Minibio
-      </label>
-      <textarea id="minibio" rows="5" cols="25">Sua biografia</textarea>
-      </br>
-      <button type"submit">
-        Enviar
-      </button>
-    </form>
-   </body>
- </html>
+      <section>
+      <form class="form">
+        <label for "nome">
+          Nome   
+        </label>
+        <input id="nome" type="text" class="form">
+        </br>
+        <label for"sobrenome">
+          Sobrenome
+        </label>
+        <input id="sobrenome" type="text">
+        </br>
+        <label for"cpf">
+          CPF
+        </label>
+        <input id="cpf" type="number">
+        </br>
+        <label for="nacionalidade">
+          Nacionalidade
+        </label>
+        <select id="nacionalidade">
+           <option value="brasileiro">Brasileiro</option>
+           <option value="estrangeiro">Estrangeiro</option>
+        </select>
+        </br>
+        <label for="minibio">
+          Minibio
+        </label>
+        <textarea id="minibio" rows="5" cols="25">Sua biografia</textarea>
+        </br>
+        <button type"submit">
+          Enviar
+        </button>
+      </form>
+    </section>
+    <script src="javascript/matematica.js"></script>
+    <script>
+        alert(soma(420, 210));
+    </script>
+
+     </body>
+   </html>
